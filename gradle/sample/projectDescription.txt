@@ -1,0 +1,9 @@
+I am gonna add Student Details
+
+
+Properties:
+Name: it should not be null
+Age: should not be zero
+Reg.No: unique should not be zero
+Password: should not be empty
+Marks: upto 100 and should be zero

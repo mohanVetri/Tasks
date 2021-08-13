@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<datastore-indexes
+  autoGenerate="true">
+    <datastore-index kind="StudentDetails" ancestor="false">
+        <property name="userName" direction="asc" />
+        <property name="firstName" direction="asc" />
+        <property name="lastName" direction="asc" />
+        <property name="password" direction="asc" />
+        <property name="emailId" direction="asc" />
+    </datastore-index>
+</datastore-indexes>

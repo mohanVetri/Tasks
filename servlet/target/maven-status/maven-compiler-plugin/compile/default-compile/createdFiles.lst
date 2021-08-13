@@ -1,0 +1,13 @@
+LogoutServlet.class
+ShowDetailServlet.class
+FullDetailServlet.class
+LoginServlet.class
+Student.class
+EditDetailServlet.class
+UpdateDetailServlet.class
+LoginPageServlet.class
+StudentDetails.class
+RegistrationServlet.class
+OfyHelper.class
+WelcomeServlet.class
+ListOfStudentDetails.class

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Showing the Details</title>
+        <script src="./bundle/RequireShowDetails.js"></script>
+    </head>
+    <style>
+        table,th{
+            border: 2px solid black;
+        }
+        td,tr{
+            border: 2px solid grey;
+        }
+    </style>
+    <body>
+        <button onclick="showDetail.displayDetails()">ShowDetails</button>
+        <button onclick="showDetail.reset()">Reset the StudentDetails</button>
+        <a href="Welcome.html"><button>back</button></a>
+        <br><br>
+        <span id="detailsTable"></span>
+    </body>
+</html>

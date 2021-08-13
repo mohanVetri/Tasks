@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Individual Details</title>
+        <script src="bundle/RequireValidation.js"></script>
+        <script src="bundle/RequireIndividualDetails.js"></script>
+        <script src="bundle/RequireViewDetails.js"></script>
+        <script src="bundle/RequireUpdateDetails.js"></script>
+        <script src="bundle/RequireDeleteDetails.js"></script>
+    </head>
+    <style>
+        .warning{
+            color: red;
+        }
+    </style>
+    <body>
+        <input type="number" id="registerNo"/>
+        <button onclick="individual.showOutput()">Search</button>
+        <a href="Welcome.html"><button>back</button></a>
+        <span id="output"></span><br>
+        <span id="viewUpdateDelete"></span>
+    </body>
+</html>

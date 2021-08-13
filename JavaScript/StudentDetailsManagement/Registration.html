@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Page</title>
+        <script src="./bundle/RequireValidation.js"></script>
+    </head>
+    <style>
+        .warning{
+            color: red;
+            font-size: 13px;
+        }
+    </style>
+    <body>
+        <h1>Registration Form!!</h1>
+        <form id="form" method="POST">
+            <table>
+                <tr>
+                    <td><b>FirstName :</b></td>
+                    <td><input id="firstName" type="text" name="firstName" onchange="validate.firstNameValidation()"></td>
+                    <td><span id="warningForFirstName" class="warning"></span></td>
+                </tr>
+                <tr>
+                    <td><b>Last Name :</b></td>
+                    <td><input id="lastName" type="text" name="lastName" onchange="validate.lastNameValidation()"></td>
+                    <td><span id="warningForLastName" class="warning"></span></td>
+                </tr>
+                <tr>
+                    <td><b>Register.No :</b></td>
+                    <td><input id="registerNo" type="number" name="registerNo" onchange="validate.registerNoValidation()"></td>
+                    <td><span id="warningForRegisterNo" class="warning"></span></td>
+                </tr>
+
+                <tr>
+                    <td><b>Father's Name:</b></td>
+                    <td><input id="fatherName" type="text" name="fatherName" onchange="validate.fatherNameValidation()"></td>
+                    <td><span id="warningForFatherName" class="warning"></span></td>
+                </tr>
+                <tr>
+                    <td><b>Mother's Name:</b></td>
+                    <td><input id="motherName" type="text" name="motherName" onchange="validate.motherNameValidation()"></td>
+                    <td><span id="warningForMotherName" class="warning"></span></td>
+                </tr>
+                <tr>
+                    <td><b>Age:</b></td>
+                    <td><input id="studentAge" type="number" name="studentAge" onchange="validate.ageValidation()"></td>
+                    <td><span id="warningForAge" class="warning"></span></td>
+                </tr>
+                <tr>
+                    <td><b>SSLC Mark:</b></td>
+                    <td><input id="sslcMark" type="number" name="sslcMark" onchange="validate.sslcMarkValidation()"></td>
+                    <td><span id="warningForSSLC" class="warning"></span></td>
+                </tr>
+                <tr>
+                    <td><b>HSC Mark:</b></td>
+                    <td><input id="hscMark" type="number" name="hscMark" onchange="validate.hscMarkValidation()"></td>
+                    <td><span id="warningForHSC" class="warning"></span></td>
+                </tr>
+            </table>
+        </form>
+        <button id="register" onclick="validate.submitForm()">Register</button>
+        <a href="Welcome.html"><button>back</button></a><br>
+        <span id='message'></span>
+    </body>
+</html>

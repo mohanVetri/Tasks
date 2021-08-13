@@ -1,0 +1,40 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.appengine.tools.development.StreamHandlerFactory (file:/C:/Users/User/AppData/Local/google/ct4j-cloud-sdk/LATEST/google-cloud-sdk/platform/google_appengine/google/appengine/tools/java/lib/impl/appengine-local-runtime.jar) to method java.net.URL.getURLStreamHandler(java.lang.String)
+WARNING: Please consider reporting this to the maintainers of com.google.appengine.tools.development.StreamHandlerFactory
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+2021-07-01 19:25:09.680:INFO::main: Logging initialized @2275ms to org.eclipse.jetty.util.log.StdErrLog
+2021-07-01 19:25:09.956:WARN:oejs.AbstractConnector:main: Ignoring deprecated socket close linger time
+Jul 01, 2021 1:55:10 PM com.google.appengine.tools.development.jetty9.JettyContainerService initContext
+WARNING: Adding jar org.apache.taglibs.taglibs-standard-impl-1.2.5.jar to WEB-INF/lib. You might want to add a dependency in your project build system to avoid this warning.
+Jul 01, 2021 1:55:11 PM com.google.appengine.tools.development.jetty9.JettyContainerService initContext
+WARNING: Adding jar org.apache.taglibs.taglibs-standard-spec-1.2.5.jar to WEB-INF/lib. You might want to add a dependency in your project build system to avoid this warning.
+2021-07-01 19:25:11.578:INFO:oejs.Server:main: jetty-9.4.41.v20210516; built: 2021-05-16T23:56:28.993Z; git: 98607f93c7833e7dc59489b13f3cb0a114fb9f4c; jvm 11.0.10+9
+2021-07-01 19:25:13.856:WARN:oeja.AnnotationParser:qtp182531396-18: org.apache.commons.logging.Log scanned from multiple locations: jar:file:///C:/Users/User/VisualStudioCode/loginUsingGAE/target/loginUsingGAE/WEB-INF/lib/commons-logging-1.2.jar!/org/apache/commons/logging/Log.class, jar:file:///C:/Users/User/VisualStudioCode/loginUsingGAE/target/loginUsingGAE/WEB-INF/lib/spring-jcl-5.3.3.jar!/org/apache/commons/logging/Log.class
+2021-07-01 19:25:13.858:WARN:oeja.AnnotationParser:qtp182531396-18: org.apache.commons.logging.LogFactory$1 scanned from multiple locations: jar:file:///C:/Users/User/VisualStudioCode/loginUsingGAE/target/loginUsingGAE/WEB-INF/lib/commons-logging-1.2.jar!/org/apache/commons/logging/LogFactory$1.class, jar:file:///C:/Users/User/VisualStudioCode/loginUsingGAE/target/loginUsingGAE/WEB-INF/lib/spring-jcl-5.3.3.jar!/org/apache/commons/logging/LogFactory$1.class
+2021-07-01 19:25:13.859:WARN:oeja.AnnotationParser:qtp182531396-18: org.apache.commons.logging.LogFactory scanned from multiple locations: jar:file:///C:/Users/User/VisualStudioCode/loginUsingGAE/target/loginUsingGAE/WEB-INF/lib/commons-logging-1.2.jar!/org/apache/commons/logging/LogFactory.class, jar:file:///C:/Users/User/VisualStudioCode/loginUsingGAE/target/loginUsingGAE/WEB-INF/lib/spring-jcl-5.3.3.jar!/org/apache/commons/logging/LogFactory.class
+2021-07-01 19:25:13.860:WARN:oeja.AnnotationParser:qtp182531396-18: org.apache.commons.logging.impl.NoOpLog scanned from multiple locations: jar:file:///C:/Users/User/VisualStudioCode/loginUsingGAE/target/loginUsingGAE/WEB-INF/lib/commons-logging-1.2.jar!/org/apache/commons/logging/impl/NoOpLog.class, jar:file:///C:/Users/User/VisualStudioCode/loginUsingGAE/target/loginUsingGAE/WEB-INF/lib/spring-jcl-5.3.3.jar!/org/apache/commons/logging/impl/NoOpLog.class
+2021-07-01 19:25:13.860:WARN:oeja.AnnotationParser:qtp182531396-18: org.apache.commons.logging.impl.SimpleLog scanned from multiple locations: jar:file:///C:/Users/User/VisualStudioCode/loginUsingGAE/target/loginUsingGAE/WEB-INF/lib/commons-logging-1.2.jar!/org/apache/commons/logging/impl/SimpleLog.class, jar:file:///C:/Users/User/VisualStudioCode/loginUsingGAE/target/loginUsingGAE/WEB-INF/lib/spring-jcl-5.3.3.jar!/org/apache/commons/logging/impl/SimpleLog.class
+2021-07-01 19:25:14.399:INFO:oeja.AnnotationConfiguration:main: Scanning elapsed time=1744ms
+Jul 01, 2021 1:55:14 PM com.google.appengine.tools.development.ApiProxyLocalImpl log
+INFO: javax.servlet.ServletContext log: No Spring WebApplicationInitializer types detected on classpath
+Jul 01, 2021 1:55:15 PM com.google.appengine.tools.development.ApiProxyLocalImpl log
+INFO: javax.servlet.ServletContext log: Initializing Spring root WebApplicationContext
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Jul 01, 2021 1:55:17 PM com.google.auth.oauth2.DefaultCredentialsProvider warnAboutProblematicCredentials
+WARNING: Your application has authenticated using end user credentials from Google Cloud SDK. We recommend that most server applications use service accounts instead. If your application continues to use end user credentials from Cloud SDK, you might receive a "quota exceeded" or "API not enabled" error. For more information about service accounts, see https://cloud.google.com/docs/authentication/.
+Jul 01, 2021 1:55:18 PM com.google.appengine.tools.development.ApiProxyLocalImpl log
+INFO: javax.servlet.ServletContext log: Initializing Spring DispatcherServlet 'dispatcher'
+2021-07-01 19:25:19.205:INFO:oejsh.ContextHandler:main: Started c.g.a.t.d.j.DevAppEngineWebAppContext@64e1377c{loginUsingGAE,/,file:///C:/Users/User/VisualStudioCode/loginUsingGAE/target/loginUsingGAE/,AVAILABLE}{C:\Users\User\VisualStudioCode\loginUsingGAE\target\loginUsingGAE}
+2021-07-01 19:25:19.209:INFO:oejs.session:main: DefaultSessionIdManager workerName=node0
+2021-07-01 19:25:19.210:INFO:oejs.session:main: node0 Scavenging disabled
+2021-07-01 19:25:19.388:INFO:oejs.AbstractConnector:main: Started NetworkTrafficSelectChannelConnector@366647c2{HTTP/1.1, (http/1.1)}{localhost:8080}
+2021-07-01 19:25:19.392:INFO:oejs.Server:main: Started @11999ms
+Jul 01, 2021 1:55:19 PM com.google.appengine.tools.development.AbstractModule startup
+INFO: Module instance default is running at http://localhost:8080/
+Jul 01, 2021 1:55:19 PM com.google.appengine.tools.development.AbstractModule startup
+INFO: The admin console is running at http://localhost:8080/_ah/admin
+Jul 01, 2021 7:25:19 PM com.google.appengine.tools.development.DevAppServerImpl doStart
+INFO: Dev App Server is now running
